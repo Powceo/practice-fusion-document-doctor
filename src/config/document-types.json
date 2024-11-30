@@ -1,0 +1,44 @@
+{
+  "documentTypes": [
+    {
+      "name": "Lab Results",
+      "keywords": ["laboratory", "lab report", "results", "test results", "CBC", "metabolic", "lab work"],
+      "priority": "high"
+    },
+    {
+      "name": "Pathology Report",
+      "keywords": ["pathology", "specimen", "biopsy", "histology", "cytology"],
+      "priority": "high"
+    },
+    {
+      "name": "Payment",
+      "keywords": ["payment", "check", "bill", "amount", "balance", "paid", "remittance", "EOR"],
+      "priority": "medium"
+    },
+    {
+      "name": "Physical Therapy",
+      "keywords": ["physical therapy", "PT", "prescription", "therapy", "rehabilitation", "exercise"],
+      "priority": "medium"
+    },
+    {
+      "name": "Patient ID",
+      "keywords": ["identification", "driver license", "ID card", "photo ID"],
+      "priority": "low"
+    },
+    {
+      "name": "Insurance Card",
+      "keywords": ["insurance", "member", "group", "policy", "coverage"],
+      "priority": "low"
+    },
+    {
+      "name": "Consent Form",
+      "keywords": ["consent", "agree", "permission", "authorize", "signature"],
+      "priority": "medium"
+    },
+    {
+      "name": "HIPAA Form",
+      "keywords": ["HIPAA", "privacy", "rights", "protected health information", "PHI"],
+      "priority": "medium"
+    }
+  ]
+}

@@ -1,13 +1,18 @@
 {
-  "watchFolder": "",
-  "outputFolder": "",
-  "supportedFileTypes": [".pdf", ".tiff", ".jpg"],
+  "watchFolder": "Scans",
+  "outputFolder": "Processed",
+  "supportedFileTypes": [".pdf"],
   "ocr": {
     "enabled": true,
-    "language": "eng"
+    "language": "eng",
+    "dpi": 300
   },
   "logging": {
     "level": "info",
     "file": "logs/app.log"
+  },
+  "patientMatching": {
+    "minimumConfidence": 0.7,
+    "requireDOB": true
   }
 }
