@@ -1,16 +1,15 @@
 {
   "name": "practice-fusion-document-doctor",
-  "version": "0.1.0",
-  "description": "Automated document processing and filing system for Practice Fusion EHR",
-  "main": "src/index.js",
+  "version": "1.0.0",
+  "description": "Automated document processing for Practice Fusion",
+  "main": "src/test-processor.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "node src/utils/network-test.js"
+    "test": "node src/test-processor.js",
+    "start": "node src/test-processor.js"
   },
   "dependencies": {
-    "winston": "^3.11.0",
-    "fs-extra": "^11.1.1"
-  },
-  "author": "",
-  "license": "UNLICENSED"
+    "fs-extra": "^11.1.1",
+    "pdf-parse": "^1.1.1",
+    "path": "^0.12.7"
+  }
 }
