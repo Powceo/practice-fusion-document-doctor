@@ -1,7 +1,10 @@
 {
-  "watchFolder": "Scans",
-  "outputFolder": "Processed",
+  "watchFolder": "S:\\10.128.1.12\Scans",
+  "processedFolder": "S:\\10.128.1.12\Scans\Processed Scans",
   "supportedFileTypes": [".pdf"],
+  "filePatterns": {
+    "unprocessed": "^\\d+_\\d+_\\d+\.pdf$"
+  },
   "ocr": {
     "enabled": true,
     "language": "eng",
@@ -10,6 +13,10 @@
   "logging": {
     "level": "info",
     "file": "logs/app.log"
+  },
+  "fileNaming": {
+    "pattern": "{documentType} - {patientName}",
+    "invalidCharReplace": "_"
   },
   "patientMatching": {
     "minimumConfidence": 0.7,
