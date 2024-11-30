@@ -1,0 +1,13 @@
+{
+  "watchFolder": "",
+  "outputFolder": "",
+  "supportedFileTypes": [".pdf", ".tiff", ".jpg"],
+  "ocr": {
+    "enabled": true,
+    "language": "eng"
+  },
+  "logging": {
+    "level": "info",
+    "file": "logs/app.log"
+  }
+}
