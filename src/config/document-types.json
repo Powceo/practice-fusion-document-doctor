@@ -39,6 +39,46 @@
       "name": "HIPAA Form",
       "keywords": ["HIPAA", "privacy", "rights", "protected health information", "PHI"],
       "priority": "medium"
+    },
+    {
+      "name": "Medical Records",
+      "keywords": ["medical record", "clinical notes", "progress notes", "medical history", "chart notes", "clinical documentation", "health record"],
+      "priority": "high"
+    },
+    {
+      "name": "Operative Report",
+      "keywords": ["operative report", "surgery", "procedure note", "post-operative", "pre-operative", "surgical report", "operation"],
+      "priority": "high"
+    },
+    {
+      "name": "Attorney Letter",
+      "keywords": ["attorney", "law office", "legal", "counsel", "lawyer", "litigation", "legal correspondence"],
+      "priority": "high"
+    },
+    {
+      "name": "Invoice",
+      "keywords": ["invoice", "statement", "billing", "charges", "fee", "due amount", "balance due"],
+      "priority": "medium"
+    },
+    {
+      "name": "MRI Report",
+      "keywords": ["MRI", "magnetic resonance imaging", "MRI findings", "MRI results", "MRI scan", "impression", "radiologist"],
+      "priority": "high"
+    },
+    {
+      "name": "CT Scan Report",
+      "keywords": ["CT", "CAT scan", "computed tomography", "CT findings", "CT results", "contrast", "radiologist interpretation"],
+      "priority": "high"
+    },
+    {
+      "name": "Imaging Results",
+      "keywords": ["x-ray", "ultrasound", "imaging", "radiology", "diagnostic imaging", "scan results", "films"],
+      "priority": "high"
+    },
+    {
+      "name": "Patient Intake Form",
+      "keywords": ["intake", "new patient", "patient information", "patient history", "registration", "patient questionnaire", "initial visit"],
+      "priority": "medium"
     }
   ]
 }
