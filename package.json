@@ -5,16 +5,11 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "node src/utils/network-test.js"
   },
   "dependencies": {
-    "chokidar": "^3.5.3",
-    "pdf-lib": "^1.17.1",
-    "node-tesseract-ocr": "^2.2.1",
-    "winston": "^3.11.0"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
+    "winston": "^3.11.0",
+    "fs-extra": "^11.1.1"
   },
   "author": "",
   "license": "UNLICENSED"
